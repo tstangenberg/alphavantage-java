@@ -1,0 +1,93 @@
+repo_name: tstangenberg/alphavantage-java
+report_id: 2363add4fc1a86d11691669a95e3bffb
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T10:34:25+00:00'
+requested_by: nice2h8u
+provider: github
+branch: master
+detected_tools_count: 7
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/tstangenberg/alphavantage-java
+  detection_source: Repo Metadata
+- name: CircleCI
+  description: Automate your development process quickly, safely, and at scale
+  website_url: https://circleci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/tstangenberg/alphavantage-java/blob/master/.circleci/config.yml
+  detection_source: ".circleci/config.yml"
+  last_updated_by: Sylvester Sefa-Yeboah
+  last_updated_on: 2021-11-22 21:21:49.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/tstangenberg/alphavantage-java
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/tstangenberg/alphavantage-java/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: crazzyghost
+  last_updated_on: 2018-11-16 00:20:02.000000000 Z
+- name: com.squareup.moshi:moshi
+  version: 1.9.2
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/tstangenberg/alphavantage-java/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Sylvester Sefa-Yeboah
+  last_updated_on: 2021-11-22 21:21:49.000000000 Z
+- name: com.squareup.okhttp3:logging-interceptor
+  description: 'Null'
+  version: 4.5.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/tstangenberg/alphavantage-java/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Sylvester Sefa-Yeboah
+  last_updated_on: 2021-11-22 21:21:49.000000000 Z
+- name: com.squareup.okhttp3:okhttp
+  description: 'Null'
+  version: 4.5.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/tstangenberg/alphavantage-java/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Sylvester Sefa-Yeboah
+  last_updated_on: 2021-11-22 21:21:49.000000000 Z
